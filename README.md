@@ -82,4 +82,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm catboo
 
 ## Result
 - From the analysis I found that there is a high correlation in these features Variance(var), peaks(diff_peaks,   smooth20_n_peaks) and higher order difference (diff2_var) with anomalies.
-- 
+- From the confusion matrix it detects that Nomal: 251 True negatives correctly identified normal
+  samples and 1 False positive.
+- Also for Anomaly: 13 false negatives which means missed 13 anomalies and 54 True positives were correctly        identified   as anomalies
